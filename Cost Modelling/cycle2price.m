@@ -21,6 +21,5 @@ P = kWh2price(E)./Q;   % $/cycle due to the enrgy consumption
 %% Round price to the nearest cent
 P = round(P.*100)./100;
 
-%This is a trial
 end
 
